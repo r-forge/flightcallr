@@ -1,0 +1,14 @@
+Package: flightcallr
+Type: Package
+Title: Classify Night Flight Calls Based on Acoustic Measurements
+Version: 0.04
+Date: 2013-07-30
+Author: Jesse C. Ross
+Depends: seewave, tuneR, randomForest, ROCR, R (>= 2.10)
+Maintainer: Jesse C. Ross <jross@cornell.edu>
+Description: flightcallr uses the seewave package to generate acoustic 
+	measurements ("features") of sounds, and then trains and uses random 
+	forest models to make predictions based on these features. Accuracy
+	can be constrained via cross-validation. Convenience functions for
+	reading and writing Raven selection tables are included.
+License: GPL-3
